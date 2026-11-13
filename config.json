@@ -1,0 +1,22 @@
+{
+  "ollama_endpoint": "http://127.0.0.1:11434",
+  "ollama_model": "qwen3:4b",
+  "fallback_model": "hf.co/mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF:Q4_K_M",
+  "fallback_threshold": 0.85,
+  "input_extensions": [
+    ".txt",
+    ".md",
+    ".markdown",
+    ".pdf",
+    ".docx",
+    ".xlsx"
+  ],
+  "categories": [
+    "영수증",
+    "계약서",
+    "취업",
+    "학습",
+    "업무자료",
+    "기타 문서"
+  ]
+}

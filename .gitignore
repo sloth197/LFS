@@ -1,0 +1,35 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Local runtime data and extracted document text
+data/*.db
+data/text_cache/
+data/gui_settings.json
+
+# Local logs and test outputs
+*.log
+batch_output/
+dedupe_test/
+empty_input/
+verify_input/
+verify_output/
+samples/
+labels.json
+
+# Local agent/tool configuration
+.agents/
+.claude/
+.codex/
+.cursor/
+.github/
+.grok/
+.qwen/
+.serena/
+.zcode/
+.mcp.json
+
+# Local folders created by the sorter
+staging/
+정리된파일/
